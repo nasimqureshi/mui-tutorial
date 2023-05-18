@@ -1,6 +1,7 @@
 
 import './App.css';
 import Cards from './components/Cards';
+import Containers from './components/Containers';
 import Modals from './components/Modals';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Cards />
       <Modals />
+      <Containers />
     </div>
   );
 }
